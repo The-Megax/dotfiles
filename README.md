@@ -1,4 +1,4 @@
-# My dotfiles
+# My dotfiles [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/megax/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
  - Conky
  - Bash
