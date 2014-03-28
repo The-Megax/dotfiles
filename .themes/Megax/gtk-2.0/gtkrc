@@ -3,6 +3,7 @@ gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffff
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
 gtk-auto-mnemonics = 1
+gtk-alternative-sort-arrows = 1
 
 style "default" {
 	xthickness = 1
@@ -339,13 +340,9 @@ style "toolbar-button" = "notebook_button" {
 	}
 }
 
-style "menu" = "dark" {
+style "menu" {
 	xthickness = 0
 	ythickness = 0
-
-	bg[NORMAL] = "#43423f"
-	bg[INSENSITIVE] = "#43423f"
-	fg[INSENSITIVE]   = shade (0.54, "#43423f")
 
 	engine "murrine"
 	{
@@ -721,94 +718,5 @@ widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" st
 #include "apps/banshee.rc"
 include "apps/chromium.rc"
 include "apps/ff.rc"
-include "apps/panel.rc"
 include "apps/gnome-terminal.rc"
 include "apps/nautilus.rc"
-
-
-###########################################################################
-###########################################################################
-###########################################################################
-
-# MOJE SEKCE ##############################################################
-
-###########################################################################
-###########################################################################
-###########################################################################
-
-
-style "xfce-panel-window-style"
-{
-  color["fg_color_dark"] 	= "#ffffff"
-  fg[NORMAL] = "#d6d6d6"
-  bg[NORMAL] = "#393939"
-  fg[ACTIVE] = "#ffffff"
-  fg[PRELIGHT] = "#ffffff"
-
-xthickness = 0 # from here until "Modd 10" is not relevant for this forum thread...
-ythickness = 0
-GtkButton::inner-border = {6,6,0,0}
-GtkButton::child-displacement-x = 0
-GtkButton::child-displacement-y = 0
-#XfcePanelWindow::autohide-size = 1
-#font_name = "Modd 10" # ...but i left it here to show how these things work.
-engine "pixmap" {
-        image {
-            function    = BOX
-            recolorable    = TRUE
-            state        = NORMAL
-            }
-        image {
-            function    = BOX
-            recolorable    = TRUE
-            state        = PRELIGHT
-            file        = "bkg/panel-button-hover.png"
-            border        = { 4, 4, 1, 1 } # = {Left, Right, Top, Bottom} 
-            stretch        = TRUE
-            }
-        image {
-            function    = BOX
-            recolorable    = TRUE
-            state        = ACTIVE
-            file        = "bkg/panel-button-active.png"
-            border        = { 4, 4, 1, 1 }
-            stretch        = TRUE
-            }
-        image {
-            function    = BOX
-            recolorable    = TRUE
-            state        = SELECTED
-            file        = "bkg/panel-button-active.png"
-            border        = { 4, 4, 1, 1 }
-            stretch        = TRUE
-            }
-        image {
-            function    = BOX
-            recolorable    = TRUE
-            state        = INSENSITIVE
-            }
-        image {
-            function    = ARROW
-            recolorable    = TRUE
-            arrow_direction    = DOWN
-            }
-        }
-}
-
-#class "XfcePanelWindow" style "xfce-panel-window-style"
-#widget "*Panel*" style "xfce-panel-window-style" # nekem a saját megoldásom kell
-
-
-# Dark desktop icon background
-style "xfdesktop-icon-view" {
-XfdesktopIconView::label-alpha = 90
-
-#Text colors you can delete these if you want you use gtk theme colors
-base[NORMAL] = "#000000"
-base[ACTIVE] = "#000000"
-
-fg[NORMAL] = "#ffffff"
-
-}
-widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
-
