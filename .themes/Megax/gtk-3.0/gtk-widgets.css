@@ -71,6 +71,13 @@
     outline-offset: 5px;
 }
 
+/* Megax fix */
+* {
+    /* inherit the color from parent by default */
+    color: inherit;
+    background-color: @bg_color;
+}
+
 GtkWindow {
     color: @fg_color;
     background-color: @bg_color;
