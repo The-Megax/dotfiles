@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Megax
+Comment=Megax theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Megax
+MetacityTheme=Megax
+IconTheme=fs-icons-ubuntu
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:
