@@ -270,7 +270,7 @@ function draw_clock_hands(cr, xc, yc)
     end
 end
 
-local function setup_rings(cr, pt)
+function setup_rings(cr, pt)
     local str = ''
     local value = 0
         
