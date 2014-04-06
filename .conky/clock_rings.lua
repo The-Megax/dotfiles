@@ -278,7 +278,7 @@ function setup_rings(cr, pt)
     str = conky_parse(str)
         
     value = tonumber(str)
-    pct = value/pt['max']
+    local pct = value/pt['max']
         
     draw_ring(cr, pct, pt)
 end
@@ -291,10 +291,10 @@ function conky_clock_rings()
     end
 
     local cs = cairo_xlib_surface_create(conky_window.display, conky_window.drawable, conky_window.visual, conky_window.width, conky_window.height)
-    local cr = cairo_create(cs)    
+    local cr = cairo_create(cs)
     
     local updates = conky_parse('${updates}')
-    update_num = tonumber(updates)
+    local update_num = tonumber(updates)
     
     if update_num > 5 then
         for i in pairs(settings_table) do
@@ -303,6 +303,6 @@ function conky_clock_rings()
     end
     
     draw_clock_hands(cr, clock_x, clock_y)
-    cairo_surface_destroy(cs) -- Megax fix
     cairo_destroy(cr) -- Megax fix
+    cairo_surface_destroy(cs) -- Megax fix
 end
