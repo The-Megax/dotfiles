@@ -305,4 +305,6 @@ function conky_clock_rings()
     end
     
     draw_clock_hands(cr,clock_x,clock_y)
+    cairo_surface_destroy(cs) -- Megax fix
+    cairo_destroy(cr) -- Megax fix
 end
