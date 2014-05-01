@@ -1,0 +1,7 @@
+{
+    "last-edited": "1387015208", 
+    "description": "A simple applet that displays the cpu usage.", 
+    "icon": "utilities-system-monitor", 
+    "uuid": "cpu-monitor-text@gnemonix", 
+    "name": "Simple CPU Monitor"
+}

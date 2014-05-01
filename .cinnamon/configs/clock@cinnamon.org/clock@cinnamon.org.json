@@ -1,0 +1,19 @@
+{
+    "font-size": {
+        "type": "spinbutton",
+        "default": 50,
+        "min": 10,
+        "max": 200,
+        "units": "",
+        "description": "Font size:",
+        "step": 1,
+        "value": 50
+    },
+    "date-format": {
+        "type": "entry",
+        "default": "%I:%M %p",
+        "description": "Date format:",
+        "value": "%I:%M %p"
+    },
+    "__md5__": "4010abdee79cfa4f06e894bda4ad4c9c"
+}
