@@ -245,7 +245,7 @@
         "units": "pixels",
         "description": "Category icon size:",
         "tooltip": "Set the category icon size.",
-        "value": 23
+        "value": 26
     },
     "show-recent": {
         "type": "checkbox",
@@ -259,7 +259,7 @@
         "default": true,
         "description": "Show bookmarks and places",
         "tooltip": "Choose whether or not to show bookmarks and places in the menu.",
-        "value": true
+        "value": false
     },
     "scroll-categories": {
         "type": "checkbox",
@@ -891,7 +891,7 @@
     "vampire": {
         "type": "generic",
         "default": "power-theme::horizontal;;gnomenu-buttons-theme::icon;;show-recent::true;;show-places::true;;activate-on-hover::false;;menu-icon::/usr/share/cinnamon/theme/menu.png;;menu-label::Menu;;allow-search::true;;swap-panels::false;;hover-delay::0;;enable-autoscroll::true;;show-view-item::true;;control-symbolic::false;;power-symbolic::false;;view-item::false;;activate-on-press::true;;hover-box::false;;control-box::false;;power-box::false;;accessible-box::false;;gnomenu-box::false;;show-removable-drives::false;;accessible-icons::true;;categories-icons::true;;app-button-width::300;;app-description::false;;icon-app-size::22;;icon-cat-size::32;;icon-max-fav-size::32;;icon-power-size::25;;icon-control-size::25;;icon-hover-size::52;;icon-accessible-size::22;;icon-gnomenu-size::80;;show-favorites::true;;favorites-lines::1;;show-hover-icon::true;;show-power-buttons::true;;show-time-date::true;;time-format::%H:%M;;date-format::%A,%e %B;;show-app-title::true;;app-title-size::10;;show-app-description::true;;app-description-size::8;;automatic-size::false;;allow-resizing::false;;full-screen::false;;width::563;;height::540;;scroll-favorites::false;;scroll-categories::true;;arrow-categories::false;;scroll-applications::true;;scroll-accessible::true;;scroll-gnomenu::false;;spacer-line::false;;spacer-size::10;;show-box-pointer::true;;fix-menu-corner::false",
-        "value": "power-theme::horizontal-grid;;gnomenu-buttons-theme::icon;;show-recent::false;;show-places::true;;activate-on-hover::false;;menu-icon::/usr/share/cinnamon/theme/menu.svg;;menu-label::Menu;;allow-search::true;;swap-panels::false;;hover-delay::0;;enable-autoscroll::true;;show-view-item::true;;control-symbolic::false;;power-symbolic::false;;view-item::false;;activate-on-press::true;;hover-box::false;;control-box::false;;power-box::true;;accessible-box::false;;gnomenu-box::false;;show-removable-drives::false;;accessible-icons::true;;categories-icons::true;;app-button-width::100;;app-description::false;;icon-app-size::20;;icon-cat-size::23;;icon-max-fav-size::32;;icon-power-size::25;;icon-control-size::25;;icon-hover-size::52;;icon-accessible-size::22;;icon-gnomenu-size::80;;show-favorites::true;;favorites-lines::1;;show-hover-icon::true;;show-power-buttons::true;;show-time-date::true;;time-format::%H:%M;;date-format::%A,%e %B;;show-app-title::true;;app-title-size::10;;show-app-description::true;;app-description-size::8;;automatic-size::false;;allow-resizing::false;;full-screen::false;;width::624;;height::653.0006103515625;;scroll-favorites::false;;scroll-categories::true;;arrow-categories::false;;scroll-applications::true;;scroll-accessible::true;;scroll-gnomenu::false;;spacer-line::false;;spacer-size::10;;show-box-pointer::true;;fix-menu-corner::false"
+        "value": "power-theme::horizontal-grid;;gnomenu-buttons-theme::icon;;show-recent::false;;show-places::false;;activate-on-hover::false;;menu-icon::/home/megax/launcher_bfb.svg;;menu-label::;;allow-search::true;;swap-panels::false;;hover-delay::0;;enable-autoscroll::true;;show-view-item::true;;control-symbolic::false;;power-symbolic::false;;view-item::false;;activate-on-press::true;;hover-box::false;;control-box::false;;power-box::true;;accessible-box::false;;gnomenu-box::false;;show-removable-drives::false;;accessible-icons::true;;categories-icons::true;;app-button-width::100;;app-description::false;;icon-app-size::20;;icon-cat-size::26;;icon-max-fav-size::32;;icon-power-size::25;;icon-control-size::25;;icon-hover-size::52;;icon-accessible-size::22;;icon-gnomenu-size::80;;show-favorites::true;;favorites-lines::1;;show-hover-icon::true;;show-power-buttons::true;;show-time-date::true;;time-format::%H:%M;;date-format::%A,%e %B;;show-app-title::true;;app-title-size::10;;show-app-description::true;;app-description-size::8;;automatic-size::false;;allow-resizing::false;;full-screen::false;;width::624;;height::653.0006103515625;;scroll-favorites::false;;scroll-categories::true;;arrow-categories::false;;scroll-applications::true;;scroll-accessible::true;;scroll-gnomenu::false;;spacer-line::false;;spacer-size::10;;show-box-pointer::true;;fix-menu-corner::false"
     },
     "garibaldo": {
         "type": "generic",
