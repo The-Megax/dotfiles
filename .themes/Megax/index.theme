@@ -9,4 +9,4 @@ GtkTheme=Megax
 MetacityTheme=Megax
 IconTheme=fs-icons-ubuntu
 CursorTheme=DMZ-White
-ButtonLayout=close,minimize,maximize:
+ButtonLayout=:close,minimize,maximize
