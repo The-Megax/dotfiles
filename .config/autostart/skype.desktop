@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=skype
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[hu_HU]=skype
+Name=skype
+Comment[hu_HU]=skype
+Comment=skype

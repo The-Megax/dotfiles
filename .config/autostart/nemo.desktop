@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=nemo -n
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[hu_HU]=nemo
+Name=nemo
+Comment[hu_HU]=nemo
+Comment=nemo
+X-GNOME-Autostart-Delay=0

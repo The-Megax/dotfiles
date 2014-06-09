@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=hexchat
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[hu_HU]=hexchat
+Name=hexchat
+Comment[hu_HU]=hexchat
+Comment=hexchat

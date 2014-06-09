@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=transmission-gtk -m
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[hu_HU]=transmission-gtk
+Name=transmission-gtk
+Comment[hu_HU]=Starts Transmission Minimized
+Comment=transmission-gtk %U
+X-GNOME-Autostart-Delay=0

@@ -1,0 +1,9 @@
+[user]
+	name = Megax
+	email = megax@yeahunter.hu
+[web]
+	browser = chromium
+[color]
+	ui = auto
+[push]
+	default = matching

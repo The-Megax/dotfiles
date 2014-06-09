@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/megax/Asztal/Letöltések/TeamSpeak3-Client-linux_amd64/ts3client_linux_amd64
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[hu_HU]=ts3
+Name=ts3
+Comment[hu_HU]=ts3
+Comment=ts3
