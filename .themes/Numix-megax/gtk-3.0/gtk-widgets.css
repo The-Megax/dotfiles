@@ -57,7 +57,7 @@
  * base states *
  ***************/
 .background {
-    background-color: @base_color; /* Megax fix. */
+    background-color: @theme_bg_color; /* Megax fix. */
     color: @theme_fg_color;
 }
 
