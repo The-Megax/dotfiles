@@ -1,0 +1,156 @@
+/* Megax fix. */
+
+/*************
+ * Rhythmbox *
+ *************/
+RBButtonBar.toolbar {
+    padding: 4px;
+    border-style: none;
+    background-color: @theme_bg_color;
+    background-image: none;
+    color: @theme_fg_color;
+}
+
+RBButtonBar.toolbar .button {
+    padding: 2px;
+}
+
+RBButtonBar.toolbar .button.text-button {
+    padding: 2px 4px;
+}
+
+RBButtonBar.toolbar .button.image-button {
+    padding: 4px 3px 3px 4px;
+}
+
+RBButtonBar.toolbar:insensitive {
+    background-color: shade(@theme_bg_color, 0.9);
+    color: mix(@theme_fg_color, @theme_bg_color, 0.5);
+}
+
+/* menubar toolbars */
+RBButtonBar.toolbar.menubar {
+    -GtkToolbar-button-relief: normal;
+}
+
+/*******************
+ * primary-toolbar *
+ *******************/
+RBButtonBar.primary-toolbar,
+RBButtonBar.primary-toolbar RBButtonBar.toolbar,
+RBButtonBar.primary-toolbarRBButtonBar.toolbar {
+    -GtkWidget-window-dragging: true;
+
+    padding: 4px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: shade(@theme_bg_color, 0.8);
+    background-color: @theme_bg_color;
+    background-image: none;
+    color: @theme_fg_color;
+}
+
+RBButtonBar.primary-toolbar GtkComboBox,
+RBButtonBar.primary-toolbar .button {
+    padding: 2px;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 2px;
+    background-color: transparent;
+    background-image: none;
+    color: @theme_fg_color;
+}
+
+RBButtonBar.primary-toolbar .raised .button,
+RBButtonBar.primary-toolbar .raised.button,
+RBButtonBar.toolbar GtkComboBox,
+RBButtonBar.toolbar .button {
+    border-color: shade(@theme_bg_color, 0.8);
+    background-color: shade(@theme_bg_color, 1.08);
+    background-image: none;
+    color: @theme_fg_color;
+}
+
+RBButtonBar.primary-toolbar .button:hover,
+RBButtonBar.toolbar .button:hover {
+    border-color: shade(@theme_bg_color, 0.7);
+    background-color: shade(@theme_bg_color, 1.10);
+    background-image: none;
+}
+
+RBButtonBar.primary-toolbar .button:active,
+RBButtonBar.toolbar .button:active {
+    border-color: shade(@theme_bg_color, 0.8);
+    background-color: shade(@theme_bg_color, 0.95);
+    background-image: none;
+}
+
+RBButtonBar.primary-toolbar .button:active:hover,
+RBButtonBar.toolbar .button:active:hover {
+    border-color: shade(@theme_bg_color, 0.7);
+}
+
+RBButtonBar.primary-toolbar .button:focus,
+RBButtonBar.primary-toolbar .button:hover:focus,
+RBButtonBar.primary-toolbar .button:active:focus,
+RBButtonBar.primary-toolbar .button:active:hover:focus,
+RBButtonBar.toolbar .button:focus,
+RBButtonBar.toolbar .button:hover:focus,
+RBButtonBar.toolbar .button:active:focus,
+RBButtonBar.toolbar .button:active:hover:focus {
+    border-color: shade(@theme_bg_color, 0.7);
+}
+
+RBButtonBar.primary-toolbar .button:insensitive,
+RBButtonBar.toolbar .button:insensitive {
+    border-color: shade(@theme_bg_color, 0.85);
+    background-color: shade(@theme_bg_color, 0.9);
+    background-image: none;
+}
+
+RBButtonBar.primary-toolbar .button:active *:insensitive,
+RBButtonBar.toolbar .button:active *:insensitive {
+    border-color: shade(@theme_bg_color, 0.75);
+    background-color: shade(@theme_bg_color, 0.80);
+    background-image: none;
+}
+
+RBButtonBar.primary-toolbar .entry,
+RBButtonBar.toolbar .entry {
+    border-color: shade(@theme_bg_color, 0.8);
+}
+
+RBButtonBar.primary-toolbar .entry:active,
+RBButtonBar.primary-toolbar .entry:focus,
+RBButtonBar.toolbar .entry:active,
+RBButtonBar.toolbar .entry:focus {
+    border-color: shade(@theme_bg_color, 0.7);
+}
+
+/* linked toolbar buttons */
+RBButtonBar.primary-toolbar .button.raised.linked,
+RBButtonBar.primary-toolbar .raised.linked .button,
+RBButtonBar.toolbar .button.raised.linked,
+RBButtonBar.toolbar .raised.linked .button,
+RBButtonBar.toolbar .linked .button {
+    box-shadow: inset -1px 0 shade(@theme_bg_color, 0.9);
+}
+
+RBButtonBar.primary-toolbar .button.raised.linked:active,
+RBButtonBar.primary-toolbar .raised.linked .button:active,
+RBButtonBar.toolbar .button.raised.linked:active,
+RBButtonBar.toolbar .raised.linked .button:active,
+RBButtonBar.toolbar .linked .button:active {
+    box-shadow: inset -1px 0 shade(@theme_bg_color, 0.9),
+                inset 1px 0 alpha(@dark_shadow, 0.07),
+                inset 0 1px alpha(@dark_shadow, 0.08),
+                inset 0 -1px alpha(@dark_shadow, 0.05);
+}
+
+RBButtonBar.primary-toolbar .button.raised.linked:insensitive,
+RBButtonBar.primary-toolbar .raised.linked .button:insensitive,
+RBButtonBar.toolbar .button.raised.linked:insensitive,
+RBButtonBar.toolbar .raised.linked .button:insensitive,
+RBButtonBar.toolbar .linked .button:insensitive {
+    box-shadow: inset -1px 0 shade(@theme_bg_color, 0.85);
+}
