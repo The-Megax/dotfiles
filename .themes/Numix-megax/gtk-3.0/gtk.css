@@ -52,6 +52,10 @@
 @define-color panel_bg_color @dark_bg_color;
 @define-color panel_fg_color @dark_fg_color;
 
+/* Megax fix. */
+@define-color border shade(@theme_bg_color, 0.7);
+@define-color notebook_bg shade(@theme_bg_color, 1.1);
+
 /* osd */
 @define-color osd_base @dark_bg_color;
 @define-color osd_fg @dark_fg_color;
@@ -76,6 +80,7 @@
 
 @import url("gtk-widgets.css");
 @import url("gtk-widgets-assets.css");
+@import url("apps/cinnamon-applications.css"); /* Megax fix. */
 @import url("apps/gnome-applications.css");
 @import url("apps/granite-widgets.css");
 @import url("apps/unity.css");
