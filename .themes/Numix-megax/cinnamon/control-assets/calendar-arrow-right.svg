@@ -9,47 +9,41 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="22"
-   height="24"
+   width="16"
+   height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="add-workspace-button-hover.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="calendar-arrow-right.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.82352941"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="-2.8313455"
-     inkscape:cy="12.2645"
+     inkscape:cx="-7.9795425"
+     inkscape:cy="6.8272175"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      borderlayer="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="714"
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="2"
-     fit-margin-right="5"
-     fit-margin-bottom="0">
+     inkscape:window-y="23"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid17403"
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true"
-       originx="-2.78978px"
-       originy="-1.2601948px" />
+       snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -67,22 +61,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-2.78978,-1027.102)">
+     transform="translate(0,-1036.3622)">
     <path
-       sodipodi:type="star"
-       style="opacity:0.95;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       style="fill:#dcdcdc;fill-opacity:1;stroke:none;display:inline"
+       d="m 2.9999983,1051.3622 0,-14 9.9999967,7 z"
        id="path18028"
-       sodipodi:sides="3"
-       sodipodi:cx="84.5"
-       sodipodi:cy="337.5"
-       sodipodi:r1="5"
-       sodipodi:r2="2.5"
-       sodipodi:arg1="0.52359878"
-       sodipodi:arg2="1.5707963"
-       inkscape:flatsided="true"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 88.830127,340 80.169873,340 84.5,332.5 z"
-       transform="matrix(0,2.7712813,-2,0,684.78978,804.92873)" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>

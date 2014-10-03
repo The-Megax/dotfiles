@@ -7,4 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Numix-megax
 MetacityTheme=Numix-megax
-ButtonLayout=:minimize,maximize,close
+IconTheme=fs-icons-ubuntu
+CursorTheme=DMZ-White
+ButtonLayout=:close,minimize,maximize

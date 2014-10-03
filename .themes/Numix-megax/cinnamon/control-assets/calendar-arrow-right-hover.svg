@@ -9,40 +9,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="21"
-   height="10"
+   width="16"
+   height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="panel-button-border.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="calendar-arrow-right-hover.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.8"
-     inkscape:cx="8.6594891"
-     inkscape:cy="5.7029946"
+     inkscape:zoom="22.627417"
+     inkscape:cx="-7.9795425"
+     inkscape:cy="6.8272175"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:window-width="1440"
-     inkscape:window-height="843"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
      inkscape:window-x="0"
-     inkscape:window-y="26"
-     inkscape:window-maximized="1"
-     guidetolerance="10000"
-     objecttolerance="10000">
+     inkscape:window-y="23"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
-       id="grid3792"
-       empspacing="10"
+       id="grid17403"
+       empspacing="5"
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
@@ -62,13 +60,13 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="opacity:0.8;fill:#ffffff;fill-opacity:1;stroke-width:0.43599999;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect3796"
-       width="3"
-       height="2"
-       x="9"
-       y="8" />
+     id="layer1"
+     transform="translate(0,-1036.3622)">
+    <path
+       style="fill:#d64937;fill-opacity:1;stroke:none;display:inline"
+       d="m 2.9999983,1051.3622 0,-14 9.9999967,7 z"
+       id="path18028"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
