@@ -73,10 +73,13 @@ StScrollBar StButton#vhandle:hover {
 
 #Tooltip {
     border-radius: 2px;
-    padding: 4px 12px;
-    background-color: rgba(0,0,0,0.5);
-    font-size: 8pt;
-    font-weight: bold;
+    padding: 4px 6px;
+    background-color: #2d2d2d;
+    border: 1px solid #484848;
+    color: #dcdcdc;
+    font-size: 9pt;
+    font-weight: normal;    
+    text-align: center;
 }
 
 /* Switches (to be used in menus) */
@@ -1313,9 +1316,8 @@ StScrollBar StButton#vhandle:hover {
  * On screen keyboard
  * ===================================================================*/
 #keyboard {
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(80,108,150,1.0);
-    background-gradient-end: rgba(170,200,255,1.0);
+    background-color: #2d2d2d;
+    border-top: 1px solid #484848;
 }
 
 .keyboard-layout {
@@ -1330,41 +1332,45 @@ StScrollBar StButton#vhandle:hover {
 .keyboard-key {
     min-height: 30px;
     min-width: 30px;
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(78,78,78,0.5);
-    background-gradient-end: rgba(78,78,78,0.5);
+    background-color: #3d3d3d;
+    border: 1px solid #535353;
+    border-radius: 2px;
     font-size: 14pt;
     font-weight: bold;
-    border-radius: 2px;
-    border: 1px solid rgba(78,78,78,0.9);
-    color: white;
+    color: #dcdcdc;
 }
 
 .keyboard-key:grayed {
-    color: #808080;
-    border-color: #808080;
+    color: #888;
+    background-color: #3d3d3d;
+    border: 1px solid #535353;
+    border-radius: 2px;
 }
 
 .keyboard-key:checked,
 .keyboard-key:hover {
-    background: #303030;
-    border: 3px solid white;
+    background-color: #d64937;
+    border: 1px solid #d64937;
+    border-radius: 2px;
 }
 
 .keyboard-key:active {
-    background: #808080;
+    background-color: #bc4233;
+    border: 1px solid #d64937;
+    border-radius: 2px
 }
 
 .keyboard-subkeys {
-    color: white;
+    color: #dcdcdc;
     padding: 5px;
-    -arrow-border-radius: 10px;
-    -arrow-background-color: #090909;
-    -arrow-border-width: 2px;
-    -arrow-border-color: white;
-    -arrow-base: 20px;
-    -arrow-rise: 10px;
-    -boxpointer-gap: 5px;
+    -arrow-border-radius: 0px;
+    -arrow-background-color: #2d2d2d;
+    -arrow-border-width: 1px;
+    -arrow-border-color: #484848;
+    -arrow-border-radius: 2px;
+    -arrow-base: 21px;
+    -arrow-rise: 9px;
+    -boxpointer-gap: 2px;
 }
 
 /* ###################################################################
@@ -1792,8 +1798,8 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .panel-launcher-add-dialog-entry {
-font-size: 9pt;
-font-weight: normal;
+    font-size: 9pt;
+    font-weight: normal;
     width: 23em;
     selection-background-color: black;
     selected-color: white;
@@ -1806,7 +1812,7 @@ font-weight: normal;
     background-gradient-end: rgba(0,0,0,0.3);
     box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
     caret-size: 1px;
-        height: 16px; 
+    height: 16px; 
 }
 
 .panel-launcher-add-dialog-entry:focus,
@@ -1859,7 +1865,7 @@ font-weight: normal;
 
 .applet-label {
     color: #fff;
-        text-align: center;
+    text-align: center;
 }
 
 .applet-icon {
@@ -1938,7 +1944,7 @@ font-weight: normal;
 }
 
 .check-box StLabel {
-   font-weight: normal;
+    font-weight: normal;
 }
 
 .radiobutton CinnamonGenericContainer {
@@ -1974,4 +1980,20 @@ font-weight: normal;
 
 .flashspot {
     background-color: white;
+}
+
+/* ===================================================================
+ * User Applet
+ * ===================================================================*/
+.user-icon {  
+    background-color: #333;
+    border: 1px solid #484848;
+    border-radius: 2px;
+    padding: 0.4em;
+}
+
+.user-label {
+    color: #dcdcdc;
+    font-size: 16px;
+    margin: 6px;
 }
