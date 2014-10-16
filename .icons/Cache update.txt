@@ -1,0 +1,2 @@
+$ cd .icons
+$ for file in `ls ./ | grep fs-icons-ubuntu`; do echo "Updating cache for $file..."; gtk-update-icon-cache -f ./$file; done
