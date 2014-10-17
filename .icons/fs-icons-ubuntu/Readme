@@ -1,2 +1,2 @@
-Képklónozó script-nél nem lehet linkeket létrehozni. Pótolni kellene majd.
+Képklónozó script-nél néha lehet a linkelésnél hiba (Ha másik mappából van átlinkelve. 32-es képméretnél ez javítva.)
 Az "actions/scalable" mappába pár kép kikapcsolásra került. Az ignore mappába lett áthelyezve.

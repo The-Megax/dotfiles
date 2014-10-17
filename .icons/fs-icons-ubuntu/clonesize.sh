@@ -46,16 +46,9 @@ png_size_clone () {
   echo "Copy png file $new_size x $new_size: $f"
   filename="${f##*/}"
 
-  #Symlink fix. ???
-  #if [ -f $f ] && [ -L $f ]; then
-  #  cp $f ../$new_size/${filename}
-  #fi
-  
-  #if [ -f $f ] && [ ! -L $f ]; then
-  #  convert $f -scale "$new_size"x"$new_size"! ../$new_size/${filename}
-  #fi
-
-  if [ -f $f ]; then
+  if [ -f $f ] && [ -L $f ]; then
+    cp -d $f ../$new_size/${filename}
+  elif [ -f $f ] && [ ! -L $f ]; then
     convert $f -scale "$new_size"x"$new_size"! ../$new_size/${filename}
   fi
 }
