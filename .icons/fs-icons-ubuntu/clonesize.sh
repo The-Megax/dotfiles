@@ -4,6 +4,12 @@ old_size="32"
 new_size="24"
 
 main () {
+  if [ -e "$new_size"x"$new_size" ]; then
+    rm -rf "$new_size"x"$new_size"
+  fi
+
+  mkdir "$new_size"x"$new_size"
+
   dir_clone actions
   dir_clone animations
   dir_clone apps
@@ -19,10 +25,11 @@ dir_clone() {
   dirname=$1
   cd $dirname
 
-  if [ ! -e $new_size ]; then
-    mkdir $new_size
+  if [ -e $new_size ]; then
+    rm -rf $new_size
   fi
 
+  mkdir $new_size
   cd $old_size
 
   for f in $(find -iname "*.png")
@@ -31,11 +38,6 @@ dir_clone() {
   done
 
   cd ../../
-
-  if [ ! -e "$new_size"x"$new_size" ]; then
-    mkdir "$new_size"x"$new_size"
-  fi
-
   cd "$new_size"x"$new_size"
   ln -s ../$dirname/$new_size $dirname
   cd ../
