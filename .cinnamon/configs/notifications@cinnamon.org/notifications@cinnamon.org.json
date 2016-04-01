@@ -3,7 +3,15 @@
         "type": "checkbox",
         "default": true,
         "description": "Ignore transient notifications",
+        "tooltip": "Check this to ignore transient notifications.",
         "value": true
     },
-    "__md5__": "16a7df3580eefefccf3f8d135a1575a6"
+    "showEmptyTray": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Show empty tray",
+        "tooltip": "Check this to show the tray even when there are no new notifications.",
+        "value": true
+    },
+    "__md5__": "c9a1877ac5af611981519f4ca6d4a00d"
 }
